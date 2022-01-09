@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-image: url('https://i.pinimg.com/originals/b1/27/21/b12721610efc054a98ed99359a0b65fb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    /* border: 2px solid red; */
+    display: flex;
+    width: 88%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    /* margin-top: 5px; */
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar li a {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.navbar li a:hover {
+    color: crimson;
+}
+
+.logo {
+    width: 50px;
+    margin-top: 6px;
+}
+
+.container2 {
+    position: relative;
+    top: 10rem;
+    margin-left: 90px;
+}
+
+.left-col {
+    font-size: 2rem;
+    color: gainsboro;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.right-col {
+    /* border: 2px solid purple; */
+    display: inline-block;
+    position: absolute;
+    right: 31rem;
+    top: 4rem;
+    color: gainsboro;
+    font-size: large;
+}
+
+#play-btn {
+    width: 55px;
+    left: 4.5em;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.right-col button {
+    background-color: transparent;
+    outline: none;
+    border: transparent;
+}
